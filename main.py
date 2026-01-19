@@ -1,4 +1,4 @@
-
+from hangman import Hangman
 
 def main():
     print("""
@@ -28,6 +28,10 @@ def main():
         if difficulty in ("easy", "medium", "hard"):
             break
         print("Invalid choice! Please enter : Easy, Medium or Hard.\n")
+    
+    game = Hangman(difficulty, name)
+    game.start_game()
+
 
 
 if __name__ == "__main__":

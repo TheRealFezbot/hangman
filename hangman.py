@@ -91,6 +91,8 @@ class Hangman:
         
         if self.blanks == self.answer:
             print(f"Congratulations {self.name}! You won!")
+            print(f"My word was: ")
+            print(self.show_blanks())
             quit()
         else:
             print(self.show_blanks())

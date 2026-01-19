@@ -96,7 +96,7 @@ class Hangman:
             print(self.show_blanks())
             print(f"\nWrong guesses:\n")
             print(self.misses)
-            print("\nGallow:\n")
+            print("\nGallows:\n")
             print(HANGMANPICS[len(self.misses)])
         if len(self.misses) == 6:
             print(f"Tough luck {self.name}, but you lost!")

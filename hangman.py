@@ -64,7 +64,7 @@ class Hangman:
     
     def start_game(self):
         self.word = random.choice(DIFFICULTY[self.difficulty]).upper()
-        self.blanks = ["_ " for i in range(len(self.word))]
+        self.blanks = ["_ " for _ in range(len(self.word))]
         self.answer = list(self.word)
         print(f"I have picked my word, my word is {len(self.word)} characters long: \n")
         print(self.show_blanks())
@@ -91,12 +91,12 @@ class Hangman:
         
         if self.blanks == self.answer:
             print(f"Congratulations {self.name}! You won!")
-            print(f"My word was: ")
+            print("My word was: ")
             print(self.show_blanks())
             quit()
         else:
             print(self.show_blanks())
-            print(f"\nWrong guesses:\n")
+            print("\nWrong guesses:\n")
             print(self.misses)
             print("\nGallows:\n")
             print(HANGMANPICS[len(self.misses)])

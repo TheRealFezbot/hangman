@@ -1,25 +1,54 @@
-# Hangman in the terminal
+# Hangman (Terminal)
 
-## How to play
-Clone the repo and type python3 main.py!
+## About the Project
+This is a **terminal-based Hangman game** built in Python as part of a course assignment on Codecademy. The goal of the assignment was to create a small interactive program that runs entirely in the command line.
 
-## Why this project
-For a course I am following on Codecademy I had to create a terminal game. I decided on hangman since it wasn't in the suggestion list and seemed doable in a short timespan.
+I chose Hangman even though it wasn’t included in the suggested project ideas, because it felt achievable within a short timeframe while still allowing room to practice clean structure and user interaction.
 
-### Time
-The total time for this is roughly 2 hours, spread out over 2 days. There are some improvements I could make but for the sake of progress this will do for now.
+## Why This Project Exists
+This project exists to practice **fundamental Python concepts** in a constrained environment. By working in the terminal, the focus stays on logic, flow, and interaction rather than UI or external libraries.
 
-### Objectives
-The objectives of the assignment were:
-* Build a terminal program using Python
-* Add at least one interactive feature using input()
-* Use Git version control
-* Use the command line and file navigation
-* Write a technical blog post on the project
+It also served as a quick, self-contained exercise to:
+- Build something from scratch  
+- Apply course concepts independently  
+- Practice writing and structuring a complete, runnable program  
 
-I decided to use a class for running the game as well. It seemed easier and logical.
+## Tech Stack
+- **Python** – core game logic  
+- **Command-line interface** – terminal-based user interaction  
+- **Standard input/output** – player interaction via `input()` and printed feedback  
+- **Built-in data structures** – dictionary-based word storage per difficulty level  
+- **Git** – version control during development  
+
+## Features
+- Classic **Hangman** gameplay in the terminal  
+- Multiple **difficulty levels**, each with its own word list  
+- Word selection based on chosen difficulty  
+- Interactive user input for guessing letters  
+- Clear game loop with win/lose conditions  
+- Object-oriented structure using a **Game class**  
+- Runs entirely in the command line with no external dependencies  
+
+## Time Spent
+The total development time was roughly **2 hours**, spread over **2 days**. While there are areas that could be improved or expanded, the focus of this project was on **progress and completion** rather than perfection.
+
+## Assignment Objectives
+The objectives of the original assignment were:
+- Build a terminal program using Python  
+- Add at least one interactive feature using `input()`  
+- Use Git for version control  
+- Use the command line and file navigation  
+- Write a technical blog post about the project  
+
+## How to Play
+1. Clone the repository  
+2. Navigate to the project directory  
+3. Run the game with:
+   ```bash
+   python3 main.py
+
 
 # Feedback
-Please share any feedback you have regarding this project.
-I want to improve and the best way is by listening to the oppinions of others!
-Message me here or send me an e-mail: TheRealFezbot@gmail.com
+Feedback is very welcome. If you have suggestions for improvements or ways to write cleaner or more efficient code, I’d love to hear them.
+You can reach me via GitHub or by email at TheRealFezbot@gmail.com.
+
